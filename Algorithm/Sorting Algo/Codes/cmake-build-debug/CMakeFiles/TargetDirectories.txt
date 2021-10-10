@@ -1,3 +1,0 @@
-D:/Study/GradeFour/CollegeFourLeaningNotes/Algorithm/Sorting Algo/Codes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Study/GradeFour/CollegeFourLeaningNotes/Algorithm/Sorting Algo/Codes/cmake-build-debug/CMakeFiles/Codes.dir
-D:/Study/GradeFour/CollegeFourLeaningNotes/Algorithm/Sorting Algo/Codes/cmake-build-debug/CMakeFiles/edit_cache.dir

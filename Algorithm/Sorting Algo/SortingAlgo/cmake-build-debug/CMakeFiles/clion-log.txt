@@ -1,4 +1,4 @@
-"D:\Study\IDE\Clion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "D:\Study\GradeFour\CollegeFourLeaningNotes\Algorithm\Sorting Algo\Codes"
+"D:\Study\IDE\Clion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "D:\Study\GradeFour\CollegeFourLeaningNotes\Algorithm\Sorting Algo\SortingAlgo"
 -- The C compiler identification is GNU 8.1.0
 -- The CXX compiler identification is GNU 8.1.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Study/GradeFour/CollegeFourLeaningNotes/Algorithm/Sorting Algo/Codes/cmake-build-debug
+-- Build files have been written to: D:/Study/GradeFour/CollegeFourLeaningNotes/Algorithm/Sorting Algo/SortingAlgo/cmake-build-debug
