@@ -8,6 +8,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   application:
     name: user-service
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        cluster-name: HZ # 配置集群属性
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -17,7 +22,6 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
-
 
 eureka:
   client:
