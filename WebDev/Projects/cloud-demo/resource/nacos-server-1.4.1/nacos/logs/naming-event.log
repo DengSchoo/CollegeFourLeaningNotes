@@ -1,0 +1,40 @@
+2021-10-14 11:17:21,921 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.26:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-14 11:17:21,924 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.31.26:8080_true,
+
+2021-10-14 11:17:26,923 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.26:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-14 11:17:26,923 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.26:8081_true,
+
+2021-10-14 11:17:36,113 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.26:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-14 11:17:36,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.26:8082_true,192.168.31.26:8081_true,
+
+2021-10-14 11:25:02,446 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.26:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-14 11:25:02,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.26:8081_true,
+
+2021-10-14 11:25:10,701 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: HZ, new ips size: 1, content: [192.168.31.26:8081:unknown:HZ_1.0_true_false_HZ]
+
+2021-10-14 11:25:10,701 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.26:8081_true,192.168.31.26:8081_true,
+
+2021-10-14 11:25:14,341 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.26:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-14 11:25:14,341 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2021-10-14 11:25:17,711 INFO {POS} {IP-DISABLED} valid: 192.168.31.26:8081@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1634181897998
+
+2021-10-14 11:25:29,832 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: HZ, dead ips size: 1, content: [192.168.31.26:8081:unknown:HZ_1.0_false_false_HZ]
+
+2021-10-14 11:25:29,832 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.26:8081_false,
+
+2021-10-14 11:25:32,940 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.26:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-10-14 11:25:32,941 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2021-10-14 13:56:01,948 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2021-10-14 19:58:14,377 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.26:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-10-14 19:58:14,382 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.26:8081_true,
+

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: dev # 环境
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+      server-addr: localhost:8848
+
+# user-service-dev的配置ID
