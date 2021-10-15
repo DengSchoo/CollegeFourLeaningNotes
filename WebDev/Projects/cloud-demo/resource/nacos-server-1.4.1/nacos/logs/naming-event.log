@@ -38,3 +38,5 @@
 
 2021-10-14 19:58:14,382 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.26:8081_true,
 
+2021-10-14 22:34:39,852 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+

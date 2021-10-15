@@ -39,7 +39,7 @@ public class UserController {
     private PatternProperties patternProperties;
 
     @GetMapping("now")
-    public String now() {
-        return LocalDateTime.now().format(DateTimeFormatter.ofPattern(patternProperties.getDateformat()));
+    public String now(@RequestHeader(value = "Truth", required = false) String truth) {
+        return LocalDateTime.now().format(DateTimeFormatter.ofPattern(patternProperties.getDateformat())) + truth;
     }
 }
