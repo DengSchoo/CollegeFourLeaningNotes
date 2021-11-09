@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Study/GradeFour/CollegeFourLeaningNotes/Algorithm/Binary-Tree/Binary-Tree-Codes/Binary-Tree/main.cpp
+iostream
+-
+
